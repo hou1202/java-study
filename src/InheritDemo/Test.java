@@ -2,13 +2,14 @@ package InheritDemo;
 
 public class Test {
     public static void main(String[] args) {
-        Sky sk = new Sky(15);
-        Land la = new Land(1);
+        Compute co = new Compute("雷蛇");
+        Phone ph = new Phone("康佳");
 
-        sk.setName("鹰");
-        la.setName("老虎");
+        co.setRom(8);
+        ph.setBrand("苹果");
 
-        System.out.println(sk.getName() + "的飞行高度是:" + sk.getFly() + "千米");
-        System.out.println(la.getName() + "的奔跑速度是：" + la.getSpeed() + "km/h");
+        System.out.println(ph.getBrand() + "手机的最新系列已经发布了，他的摄像头使用的是:" + ph.getCamera());
+        System.out.println("我的电脑用的是" + co.getRom() + "G内存，键盘用的是：" + co.getBoard());
+        ph.showUsb();
     }
 }

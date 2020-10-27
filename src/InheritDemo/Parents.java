@@ -13,7 +13,9 @@ public class Parents {
     int usb = 3;
 
     //无参构造
-    public Parents() {}
+    public Parents() {
+        System.out.println("父类");
+    }
 
     //全参构造
     public Parents(String cpu, int rom, int disk, String brand) {
@@ -53,5 +55,9 @@ public class Parents {
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    public void openPower() {
+        System.out.println("现在开机了");
     }
 }

@@ -15,6 +15,7 @@ public class Test {
         //返回该对象的字符串表示
         String c = ob.toString();
         System.out.println(c);
+        System.out.println("-------------");
 
         //返回其他某个对象是否与此对象“相等”
         Object obj = new Object();

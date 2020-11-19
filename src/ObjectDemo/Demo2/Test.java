@@ -1,6 +1,4 @@
-package ObjectDemo.Demo1;
-
-import ObjectDemo.Demo2.Student;
+package ObjectDemo.Demo2;
 
 public class Test {
     public static void main(String[] args) {
